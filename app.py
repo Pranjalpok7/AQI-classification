@@ -5,7 +5,7 @@ from sklearn.metrics import classification_report
 import streamlit as st
 
 # Load the dataset
-data = pd.read_csv('/home/pranjal/Downloads/aq_kathmandu_us-diplomatic-post_embassy_kathmandu.csv')
+data = pd.read_csv('aq_kathmandu_us-diplomatic-post_embassy_kathmandu.csv')
 
 # Convert 'utc' to datetime
 data['utc'] = pd.to_datetime(data['utc'])
